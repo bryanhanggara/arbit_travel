@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Logo and title company -->
+    <link rel="icon" href="assets/image/logo2.png">
+    <title>Arbit</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css//style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- nav -->
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/image/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="package.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+                <a href="login.html" class="btn btn-success me-4">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- breadcumb -->
+    <nav aria-label="breadcrumb">
+        <div class="container mt-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="package.html">Package</a></li>
+                <li class="breadcrumb-item"><a href="package.html">Details</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- details -->
+    <div class="details-package mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="details">
+                        <h6>Member</h6>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Picture</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Nationality</th>
+                                    <th scope="col">Visa</th>
+                                    <th scope="col">Passport</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <div class="photo"><img src="assets/image/profile.jpg" alt=""></div>
+                                    </th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td><ion-icon name="close-outline"></ion-icon></td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <div class="photo"><img src="assets/image/profile.jpg" alt=""></div>
+                                    </th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td><ion-icon name="close-outline"></ion-icon></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h6>Checkout</h6>
+                        <p>1. Plane</p>
+                        <div class="btn-group mb-3" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="plane" id="plane1" autocomplete="off" checked>
+                            <label class="btn" for="plane1">Economy classs</label>
+
+                            <input type="radio" class="btn-check" name="plane" id="plane2" autocomplete="off">
+                            <label class="btn" for="plane2">Bussiness class</label>
+
+                            <input type="radio" class="btn-check" name="plane" id="plane3" autocomplete="off">
+                            <label class="btn" for="plane3">First class</label>
+                        </div>
+                        <p>2. Hotel</p>
+                        <div class="btn-group mb-3" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="hotel" id="hotel1" autocomplete="off" checked>
+                            <label class="btn" for="hotel1"><ion-icon name="star"></ion-icon> <ion-icon
+                                    name="star"></ion-icon> <ion-icon name="star"></ion-icon></label>
+
+                            <input type="radio" class="btn-check" name="hotel" id="hotel2" autocomplete="off">
+                            <label class="btn" for="hotel2"> <ion-icon name="star"></ion-icon> <ion-icon
+                                    name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon
+                                    name="star"></ion-icon></label>
+
+                            <input type="radio" class="btn-check" name="hotel" id="hotel3" autocomplete="off">
+                            <label class="btn" for="hotel3"> <ion-icon name="star"></ion-icon> <ion-icon
+                                    name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon
+                                    name="star"></ion-icon> <ion-icon name="star"></ion-icon></label>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bill">
+                        <h6>Checkout Information</h6>
+                        <div class="row mt-3">
+                            <div class="col text-start index">Members</div>
+                            <div class="col text-end value">2 Person</div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-start index">additional Visa</div>
+                            <div class="col text-end value">Rp. 3.000.000</div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-start index">Packet price</div>
+                            <div class="col text-end value">Rp. 3.000.000</div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-start index">Flight</div>
+                            <div class="col text-end value">Rp. 3.000.000</div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-start index">Hotel</div>
+                            <div class="col text-end value">Rp. 3.000.000</div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col text-start index">Total</div>
+                            <div class="col text-end value total">Rp. 12.000.000</div>
+                        </div>
+                        <hr>
+                        <h6>Payment Instructions</h6>
+                        <div class="row mt-3">
+                            <div class="col-3">
+                                <div class="payment-logo">
+                                    <img src="assets/image/logo-bri.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="payment-content">
+                                    <h6>PT RIHAN GANTENG</h6>
+                                    <h5>0981 1233 1231 2222</h5>
+                                    <h5>Bank Rakyat Indonesia</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-3">
+                                <div class="payment-logo">
+                                    <img src="assets/image/logo-bri.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="payment-content">
+                                    <h6>PT RIHAN GANTENG</h6>
+                                    <h5>0981 1233 1231 2222</h5>
+                                    <h5>Bank Rakyat Indonesia</h5>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn btn-success mt-3r" href="checkout.html">Place Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h6>ARBIT.</h6>
+                </div>
+                <div class="col">
+                    <div class="tittle">Explore</div>
+                    <hr class="nav-line">
+                    <div class="sub-tittle">Holiday in Indonesia</div>
+                    <div class="sub-tittle">Holiday in Japan</div>
+                    <div class="sub-tittle">Holiday in Australia</div>
+                    <div class="sub-tittle">Villa in Bekasi</div>
+
+                </div>
+                <div class="col">
+                    <div class="tittle">Company</div>
+                    <hr class="nav-line">
+                    <div class="sub-tittle">About us</div>
+                    <div class="sub-tittle">Blog</div>
+                    <div class="sub-tittle">Careers</div>
+                    <div class="sub-tittle">Brand</div>
+                </div>
+                <div class="col ">
+                    <div class="tittle">Help</div>
+                    <hr class="nav-line">
+                    <div class="sub-tittle">Support</div>
+                    <div class="sub-tittle">FAQ</div>
+                </div>
+            </div>
+            <hr class="mb-3 mt-3">
+            <div class="credit">
+                <div class="copyright">&copy 2023 Arbit. All Rights Reserved.</div>
+                <div class="social"><ion-icon name="logo-instagram"></ion-icon><ion-icon
+                        name="logo-facebook"></ion-icon><ion-icon name="logo-twitter"></ion-icon></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+    <!-- script bootsrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- script icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
